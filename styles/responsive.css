@@ -149,7 +149,7 @@
     }
 
     /* subscribe section styles */
-    hr {
+    .newsletter-column hr {
         margin-bottom: 1rem;
         width: 18rem;
     }
