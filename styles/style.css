@@ -1,0 +1,358 @@
+/* mulish font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* common shred styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav,
+header,
+main {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 162.5%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+span {
+    color: #FF5400;
+}
+
+/* navbar styles */
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.25rem;
+}
+
+.nav-title {
+    align-items: center;
+    color: #131318;
+    display: flex;
+    gap: 1rem;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2.75rem;
+}
+
+.nav-items a {
+    color: #424247;
+    font-size: 1.125rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-items a.active,
+.nav-items a:hover:not(.active),
+.nav-items a:focus {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.burger-menu,
+#menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+/* header styles */
+header {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('../Images/Group\ 13.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: #FFF;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.header-container {
+    padding: 6.7rem 12rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+header p {
+    color: #FFF;
+    padding: 0 4rem;
+}
+
+.header-box {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 1rem;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+input,
+select,
+button {
+    appearance: none;
+    border: 0;
+    border-radius: 0.5rem;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    height: 3.25rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+button {
+    background: #FF5400;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 700;
+    padding-right: 0;
+    transition: all 0.3 ease-in-out;
+}
+
+#when,
+#type {
+    background-image: url("../Images/dropdown.svg");
+    background-position: center right 1rem;
+    background-repeat: no-repeat;
+}
+
+#find-btn {
+    background-image: url("../Images/search.svg");
+    background-position: center left 2rem;
+    background-repeat: no-repeat;
+}
+
+input:focus,
+select:focus {
+    border: 0;
+    outline: 0;
+}
+
+/* main section styles */
+main section {
+    margin-top: 6.25rem;
+}
+
+/* our popular tours section styles */
+.intro {
+    display: flex;
+    gap: 3.3rem;
+    justify-content: space-between;
+}
+
+.intro ul {
+    color: rgba(19, 19, 24, 0.70);
+    padding-left: 1.5rem;
+}
+
+.intro li {
+    margin-bottom: 1rem;
+}
+
+.intro .btn-primary {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+    max-width: 10.88rem;
+    padding: 0.875rem 2.125rem;
+}
+
+/* choose your destination section styles */
+.center-align {
+    text-align: center;
+}
+
+.center-align p {
+    padding: 0 16.5rem;
+    margin-bottom: 3rem;
+}
+
+.image-container img {
+    max-height: 18.75rem;
+    max-width: 100%;
+}
+
+.image-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.centered-img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* why choose us section styles */
+.column,
+.centered-column {
+    text-align: left;
+}
+
+.column-container {
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 50%;
+}
+
+#unique-column-container {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.centered-column {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.column {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.column h3,
+.centered-column h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.column p,
+.centered-column p {
+    color: #5A5A5D;
+    padding: 0 0;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+/* subscribe section styles */
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: 24.6rem;
+}
+
+.newsletter-column {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.newsletter-column h3 {
+    font-size: 2rem;
+}
+
+.newsletter-column p {
+    color: #5A5A5D; 
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-right: 2.75rem;
+}
+
+.newsletter-box {
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+}
+
+.newsletter-column .btn-primary {
+    max-width: 100%;
+    padding: 0.875rem 9.25rem;
+}
+
+.newsletter {
+    border-radius: 0.5rem;
+    border: 1px solid #FF5400;
+    padding: 2.5rem;
+    max-width: 40%;
+}
+
+.newsletter-img {
+    max-width: 60%;
+}
+
+/* footer section styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0;margin-top: 6.25rem;
+    padding: 6.9rem 21rem;
+    text-align: center;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer p {
+    color: #5A5A5D; 
+    margin-top: 1rem;
+}
+
+footer hr {
+    margin: 0 auto;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    width: 54.5rem;
+}
+
+#copyright {
+    color: #131318; 
+    font-family: "Inter", sans-serif;
+    font-weight: 300; 
+}
+
+/* hover effect */
+button:hover {
+    color: #131318;
+}

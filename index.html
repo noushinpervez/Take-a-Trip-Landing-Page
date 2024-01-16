@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Trip</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="shortcut icon" href="./Images/Group 40071.png" type="png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar section starts here -->
+    <nav>
+        <div class="nav-title">
+            <img src="./Images/Group 40071.png" alt="Logo">
+            <a href="#">Take a <span>Trip</span></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-items">
+            <a href="#" class="active">Home</a>
+            <a href="#">Packages</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </ul>
+    </nav>
+    <!-- navbar section ends here -->
+    <header>
+        <div class="header-container">
+            <div>
+                <h1>Explore Your Travel</h1>
+                <p>Dive into our curated travel experiences. From the sandy shores of the Maldives to the cultural
+                    wonders
+                    of
+                    Indonesia – your next adventure is just a click away.</p>
+            </div>
+            <div class="header-box">
+                <input type="text" placeholder="Where to">
+                <select name="when" id="when">
+                    <option value="" disabled selected>When</option>
+                    <option value="">Now</option>
+                    <option value="">Soon</option>
+                    <option value="">Later</option>
+                </select>
+                <select name="type" id="type">
+                    <option value="" disabled selected>Select type</option>
+                    <option value="">Solo</option>
+                    <option value="">Couple</option>
+                    <option value="">Family</option>
+                    <option value="">Business</option>
+                </select>
+                <button id="find-btn">Find Now</button>
+            </div>
+    </header>
+    <main>
+        <!-- our popular tours section -->
+        <section>
+            <div class="intro">
+                <div>
+                    <h3>Our Popular Tours</h3>
+                    <p>Dive into a world where every journey is a masterpiece. Our popular tours are crafted with care,
+                        offering exclusive experiences that redefine travel.</p>
+                    <ul>
+                        <li>Discover exclusive destinations, crafted experiences and stress-free travel with our popular
+                            tours.</li>
+                        <li>Indulge in handpicked adventures, from serene beaches to cultural wonders, redefining your
+                            travel expectations.</li>
+                        <li>Escape the ordinary with our meticulously planned tours – where every click leads to a new,
+                            unforgettable adventure.</li>
+                    </ul>
+                    <p>"Take a Trip" invites you to go beyond the ordinary and embrace the extraordinary. With our
+                        popular tours, every click is an invitation to embark on a seamless escape where unforgettable
+                        memories are created. Let us be your guide as you explore, experience, and make your travel
+                        dreams a reality. Your next adventure is not just a click away; it's a promise waiting to be
+                        fulfilled.</p>
+                    <button class="btn-primary">Read More</button>
+                </div>
+                <div>
+                    <img src="./Images/Rectangle 4.png" alt="Mountain">
+                </div>
+            </div>
+        </section>
+        <!-- choose your destination section -->
+        <section class="center-align">
+            <div>
+                <h3>Choose Your Destination</h3>
+                <p>Why settle for ordinary when extraordinary destinations await? Let us guide you to the hidden gems
+                    and iconic landmarks that make your journey truly remarkable.</p>
+            </div>
+            <div class="image-container">
+                <img src="./Images/Rectangle 5.png" alt="">
+                <img src="./Images/Rectangle 8.png" alt="">
+            </div>
+            <div class="image-container">
+                <img src="./Images/Rectangle 6.png" alt="">
+                <img src="./Images/Rectangle 7.png" alt="">
+                <img src="./Images/Rectangle 9.png" alt="">
+            </div>
+            <div class="image-container">
+                <img src="./Images/Rectangle 11.png" alt="">
+                <img src="./Images/Rectangle 10.png" alt="">
+            </div>
+        </section>
+        <!-- why choose us section styles -->
+        <section class="center-align">
+            <div>
+                <h3>Why Choose Us</h3>
+                <p>Deals & Discounts, Handpicked Hotels, World-Class Service, and Best Price Guarantee – these are not
+                    just promises, but our commitment to making your travel experience seamless and extraordinary.
+                    Choose us for unparalleled service and unbeatable value.</p>
+            </div>
+            <div class="column">
+                <div class="column-container">
+                    <img src="./Images/hotel 1.png" alt="">
+                    <h3>Handpicked Hotels</h3>
+                    <p>Stay in style with our Handpicked Hotels – where comfort meets curated luxury for your perfect
+                        getaway.</p>
+                </div>
+                <div class="column-container" id="unique-column-container">
+                    <img src="./Images/map 1.png" alt="">
+                    <h3>World Class Service</h3>
+                    <p>Experience the pinnacle of service excellence. At 'Take a Trip,' our World Class Service ensures
+                        your journey is seamless and remarkable.</p>
+                </div>
+            </div>
+            <div class="centered-column">
+                <div class="column-container">
+                    <img src="./Images/price-tag 1.png" alt="">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Book confidently with our Best Price Guarantee. We promise the best rates for your dream escape –
+                        because your adventure shouldn't cost a fortune.</p>
+                </div>
+            </div>
+        </section>
+        <!-- newsletter section -->
+        <section class="newsletter-column">
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                <hr>
+                <input class="newsletter-box" type="text" name="" id="" placeholder="Enter your name">
+                <input class="newsletter-box" type="email" name="" id="" placeholder="Enter your email">
+                <button class="btn-primary">Subscribe</button>
+            </div>
+            <div class=".newsletter-img">
+                <img src="./Images/Rectangle 8 (1).png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-title">
+            <img src="./Images/Group 40071.png" alt="">
+            <h3>Take a <span>Trip</span></h3>
+        </div>
+        <p>Your escape, your way. Click through "Take a Trip" to curate personalized journeys, discover unique
+            experiences, and escape seamlessly into a world where adventure meets perfection.</p>
+        <div class="footer-title">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        <hr>
+        <p id="copyright">2017, All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
