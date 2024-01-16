@@ -16,7 +16,7 @@ nav,
 header,
 main {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 74.5%;
 }
 
 a {
@@ -150,7 +150,7 @@ button {
 
 #find-btn {
     background-image: url("../Images/search.svg");
-    background-position: center left 2rem;
+    background-position: center left 1.5rem;
     background-repeat: no-repeat;
 }
 
@@ -200,18 +200,28 @@ main section {
 }
 
 .image-container img {
-    max-height: 18.75rem;
-    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .image-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1.5rem;
+    max-width: 100%;
 }
 
-.centered-img {
+.image-text-container {
+    position: relative;
+}
+
+.image-text {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
     left: 50%;
     position: absolute;
     top: 50%;
@@ -226,9 +236,9 @@ main section {
 
 .column-container {
     align-items: flex-start;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -236,8 +246,8 @@ main section {
 }
 
 #unique-column-container {
-    border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
 }
 
 .centered-column {
@@ -266,11 +276,13 @@ main section {
     padding: 0 0;
     margin-bottom: 0;
     margin-top: 1rem;
+    padding-right: 3.43rem;
 }
 
 /* subscribe section styles */
-hr {
+.newsletter-column hr {
     background: rgba(19, 19, 24, 0.10);
+    color: #1313181A;
     height: 1px;
     margin: 0 auto;
     margin-bottom: 1.5rem;
@@ -289,7 +301,7 @@ hr {
 }
 
 .newsletter-column p {
-    color: #5A5A5D; 
+    color: #5A5A5D;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     padding-right: 2.75rem;
@@ -319,7 +331,8 @@ hr {
 /* footer section styles */
 footer {
     background: rgba(19, 19, 24, 0.05);
-    margin: 0;margin-top: 6.25rem;
+    margin: 0;
+    margin-top: 6.25rem;
     padding: 6.9rem 21rem;
     text-align: center;
 }
@@ -335,11 +348,13 @@ footer h3 {
 }
 
 footer p {
-    color: #5A5A5D; 
+    color: #5A5A5D;
     margin-top: 1rem;
 }
 
 footer hr {
+    background: rgba(19, 19, 24, 0.10);
+    color: #1313181A;
     margin: 0 auto;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
@@ -347,9 +362,9 @@ footer hr {
 }
 
 #copyright {
-    color: #131318; 
+    color: #131318;
     font-family: "Inter", sans-serif;
-    font-weight: 300; 
+    font-weight: 300;
 }
 
 /* hover effect */

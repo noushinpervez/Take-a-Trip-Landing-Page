@@ -17,7 +17,8 @@
         margin-top: 1.125rem;
     }
 
-    nav img, .footer-title img {
+    nav img,
+    .footer-title img {
         max-height: 2rem;
     }
 
@@ -44,7 +45,6 @@
 
     #menu-toggle:checked+.burger-menu+.nav-items {
         opacity: 1;
-        background-color: #FFF;
     }
 
     /* header styles */
@@ -94,8 +94,8 @@
     }
 
     p {
-        margin-top: 1rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     .intro li {
@@ -112,9 +112,14 @@
     }
 
     .image-container {
-        flex-direction: column;
         column-gap: 1rem;
+        flex-direction: column;
         margin-bottom: 1rem;
+    }
+
+    .image-text {
+        font-size: 1.25rem;
+        font-weight: 700;
     }
 
     /* why choose us section styles */
@@ -160,6 +165,10 @@
 
     .newsletter {
         padding: 1.5rem;
+        max-width: 100%;
+    }
+
+    .newsletter-img {
         max-width: 100%;
     }
 
